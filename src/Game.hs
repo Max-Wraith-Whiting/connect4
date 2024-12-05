@@ -57,7 +57,7 @@ getRow b r
 getColumn :: Board -> ColumnID -> [Maybe Player]
 getColumn b c
     | c >= numCols b || c < 0 = error "Column ID out of bounds."
-    | otherwise = map (getCounter b c) [0..(numRows b - 1)]
+    | otherwise = map (\x -> getCounter b x c) [0..(numRows b - 1)]
 
 {- Show instance for players -}
 instance Show Player where
