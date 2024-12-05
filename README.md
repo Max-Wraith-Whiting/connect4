@@ -21,3 +21,5 @@ When running the GUI, the number keys '```0```' through '```9```' act as column 
 (*The GUI version restricts the maximum size of a board to keep within this input scheme.*)
 
 To restart the game press '```r```'. (*This can be done at any time.*)
+
+>If you are having difficulty with stack not running the GUI, just find the exe file in the .stack-work folder and run it with the --gui flag.
