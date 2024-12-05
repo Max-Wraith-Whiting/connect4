@@ -5,7 +5,7 @@ The code itself is pretty rough around the edges and has absolutely *zero* refac
 
 Using ```stack run -- connect4-exe --text``` will run the *console* version of the game.
 
-For using the GUI, use ```stack run -- connect4 --gui```.
+For using the GUI, use ```stack run -- connect4-exe --gui```.
 
 You can modify the number of rows and columns in the game like so:
 
